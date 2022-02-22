@@ -1,7 +1,7 @@
 # This BMI tells if someone is underweight, over-weight or has a normal weight
 
 # This prints a value to the user
-print("This calculates your BMI based on your values")
+print("This calculates your BMI based on your input values")
 
 # Ask for the users weight
 user_weight = float(input("What is your weight in kg?"))
@@ -9,7 +9,7 @@ user_weight = float(input("What is your weight in kg?"))
 # Ask for users height
 users_height = float(input("What is your height?"))
 
-# Calculate BMI
+# Calculate BMI = weight / height ** 2
 user_BMI = round(user_weight / users_height ** 2)
 
 # Conditions for BMI
