@@ -29,13 +29,21 @@ print("Your mission is to find the Treasure.")
 # Ask user for their first choice
 first_choice = input('You are at the cross road, where do you want to go? Type "left" or "right".\n').lower()
 
+# User makes first choice
 if first_choice == 'left':
+	
+	# User makes second choice
 	second_choice = input('You arrived at a lake. There is an island in the middle. Do you want to "swim" or "wait". \n').lower()
 	if second_choice == 'swim':
+		
+		# User makes third choice
 		third_choice = input('You finally arrived at the Island. There is a house with three doors. "Red", "Green" and "Blue". Choose one door. \n').lower()
+		
 		if third_choice == 'red':
+			
 			print("Game over, you just fell into a dark hole...")
 		elif third_choice == 'green':
+			
 			print("Congratulation..You Win. You found the treasure worth $50 million")
 		else:
 			print("Game over!!!...You entered the room with fire...")
