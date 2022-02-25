@@ -38,17 +38,26 @@ if first_choice == 'left':
 		
 		# User makes third choice
 		third_choice = input('You finally arrived at the Island. There is a house with three doors. "Red", "Green" and "Blue". Choose one door. \n').lower()
-		
 		if third_choice == 'red':
-			
 			print("Game over, you just fell into a dark hole...")
+		
 		elif third_choice == 'green':
-			
 			print("Congratulation..You Win. You found the treasure worth $50 million")
+		
 		else:
 			print("Game over!!!...You entered the room with fire...")
+			print("""                                (  .      )
+			           )           (              )
+			                 .  '   .   '  .  '  .
+			        (    , )       (.   )  (   ',    )
+			         .' ) ( . )    ,  ( ,     )   ( .
+			      ). , ( .   (  ) ( , ')  .' (  ,    )
+			     (_,) . ), ) _) _,')  (, ) '. )  ,. (' )
+			  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ """)
 	else:
 		print("Game over!!!...You were attacked by wide dogs")
 else:
 	print("Game over!!!...You got attacked by a beast!!!")
+
+
 
