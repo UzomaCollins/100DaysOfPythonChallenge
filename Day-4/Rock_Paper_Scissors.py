@@ -3,7 +3,7 @@
 '''it has three possible outcomes: a draw, a win or a loss.
 A player who decides to play rock will beat another player
 who has chosen scissors ("rock crushes scissors" or "breaks
-scissors" or sometimes "blunts scissors"[4]), but will lose
+scissors" or sometimes "blunts scissors"), but will lose
 to one who has played paper ("paper covers rock"); a play
 of paper will lose to a play of scissors ("scissors cuts paper")'''
 
@@ -51,6 +51,8 @@ Scissors = '''
 
 '''
 
+
+
 # Creates a list
 game_images = [Rock, Paper, Scissors]
 
@@ -64,10 +66,9 @@ else:
 	print(game_images[user_choice])
 
 
-# Rock == 0
-# Paper == 1
-# Scissors == 2
-
+# Rock == 0 ("rock crushes scissors" or "breaks scissors" or sometimes "blunts scissors")
+# Paper == 1 (rock will lose to one who has played paper ("paper covers rock")
+# Scissors == 2 (a play of paper will lose to a play of scissors ("scissors cuts paper")
 
 # Computer choice
 computer_choice = random.randint(0, 2)
